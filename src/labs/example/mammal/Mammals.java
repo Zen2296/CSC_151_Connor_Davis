@@ -25,7 +25,7 @@ public class Mammals {
     }
 
     public void eat(){
-      
+      System.out.println("The " + this.name + " is now eating....")
     }
 
     public void sleep(){
