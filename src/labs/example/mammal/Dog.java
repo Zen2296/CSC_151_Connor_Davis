@@ -6,7 +6,7 @@
 
 package labs.example.mammals;
 
-public class Dog extends Mammal{
+public class Dog extends Mammals{
 
 
     public void Dog(){

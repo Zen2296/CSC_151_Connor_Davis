@@ -1,4 +1,4 @@
-/*
+/* 
 @author: Connor Davis
 @Date: 1/27/2025
 @Purpose: implemented mammal class given the base methods and properties
@@ -48,10 +48,21 @@ public class Mammals {
 
     }
 
-    public void sit(){
-        system.out.println("The" + this.name + " is now sitting.....");
-        Thread.sleep(1500);
-        system.out.println("The" + this.name + " is now standing up....");
-        system.out.println("WOOF!!! WOOF!!! WOOF!!!");
+    public void sit() throws Exception{
+        System.out.println("The " + this.name + " is now sitting.....");
+
+        Thread.sleep(15000);
+
+        System.out.println("The " + this.name + " is now standing up....");
+        System.out.println("WOOF!!! WOOF!!! WOOF!!!");
+    }
+    public void getMammalDetails(){
+        System.out.println(this.hairColor);
+        System.out.println(this.eyeColor);
+        System.out.println(this.bodyTemp);
+        System.out.println(this.legLength);
+        System.out.println(this.eyeSize);
+        System.out.println(this.tongueTexture);
+        System.out.println(this.name);
     }
 }
