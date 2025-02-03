@@ -49,6 +49,9 @@ public class Mammals {
     }
 
     public void sit(){
-        
+        system.out.println("The" + this.name + " is now sitting.....")
+        Thread.sleep(15)
+        system.out.println("The" + this.name + " is now standing up....")
+        system.out.println("WOOF!!! WOOF!!! WOOF!!!")
     }
 }
