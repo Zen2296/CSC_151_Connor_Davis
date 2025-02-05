@@ -13,6 +13,7 @@ public class Main{
         mammals.eat();
         mammals.sit();
         mammals.getMammalDetails();
+        mammals.walk();
     
     
     
