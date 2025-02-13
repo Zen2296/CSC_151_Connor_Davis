@@ -11,9 +11,9 @@ public class Main{
         Mammals mammals = new Mammals();
         mammals.setName("Dog");
         mammals.eat();
-        mammals.sit();
+        mammals.rest();
         mammals.getMammalDetails();
-        mammals.walk();
+        mammals.move();
     
     
     
