@@ -5,7 +5,6 @@
 */
 package labs.example.mammals;
 
-
 public class Main{
      public static void main(String[] args) throws Exception{
         Mammals mammals = new Mammals();

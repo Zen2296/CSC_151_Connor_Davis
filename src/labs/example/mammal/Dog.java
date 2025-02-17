@@ -3,7 +3,6 @@
 @date: 1/29/2025
 @Purpose: Dog class to go along with mammal class
 */
-
 package labs.example.mammals;
 
 public class Dog extends Mammals{
@@ -50,7 +49,7 @@ public class Dog extends Mammals{
 
     }
 
-    public void growl()[
+    public void growl(){
         System.out.println("GRRRRRRRR....");
-    ]
+    }
 }
